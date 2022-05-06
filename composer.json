@@ -1,0 +1,56 @@
+{
+    "name": "laravel/solana-php-sdk",
+    "description": "Solana PHP SDK",
+    "keywords": [
+        "laravel",
+        "solana-php-sdk",
+        "blockchain",
+        "solana",
+        "sol",
+        "sdk",
+        "php"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "ext-sodium": "*",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/http": "5.4.*",
+        "illuminate/support": ">=5.4",
+        "rambler-digital-solutions/php-json-rpc": "@stable",
+        "stephenhill/base58": "^1.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "orchestra/testbench": "3.*",
+        "phpunit/phpunit": "~5.7",
+        "squizlabs/php_codesniffer": "^3.5",
+        "phabel/phabel": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tighten\\SolanaPhpSdk\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tighten\\SolanaPhpSdk\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "phabel": {
+            "revision": 0
+        }
+    }
+}
