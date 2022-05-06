@@ -1,8 +1,8 @@
 {
-    "name": "laravel/solana-php-sdk",
+    "name": "laravel-ch/solana-php-sdk",
     "description": "Solana PHP SDK",
     "keywords": [
-        "laravel",
+        "laravel-ch",
         "solana-php-sdk",
         "blockchain",
         "solana",
@@ -10,7 +10,6 @@
         "sdk",
         "php"
     ],
-    "license": "MIT",
     "type": "project",
     "require": {
         "php": "^7.4",
